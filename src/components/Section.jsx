@@ -35,11 +35,11 @@ function Section() {
             <div className="flex my-8 justify-between mx-8">
               <img src="/Replay.svg" alt="" title='Replay'/>
               <div className="flex justify-center items-center gap-4 ">
-                <button className=" bg py-1 px-3 rounded-full text-2xl text-white" title='Backward'>
+                <button className=" bg py-1 px-3 rounded-full text-2xl font-bold text-white" title='Backward'>
                   {"<"}
                 </button>
                 <p>01/10</p>
-                <button className=" bg py-1 px-3 rounded-full text-2xl text-white" title='Forward'>
+                <button className=" bg py-1 px-3 rounded-full text-2xl font-bold text-white" title='Forward'>
                   {">"}
                 </button>
               </div>
@@ -64,7 +64,7 @@ function Section() {
           </p>
         </div>
         <div className="flex items-center gap-2">
-          <button className='bg p-0.5 px-2.5 font-bold text-5xl rounded-full text-white'>+</button>
+          <button className='bg py-1 px-3 font-bold text-xl rounded-full text-white '>+</button>
           <p className="text-2xl text-bg font-bold">Create Flashcard</p>
         </div>
       </section>
