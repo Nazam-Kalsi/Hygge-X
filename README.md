@@ -30,15 +30,10 @@ Before running the application, ensure you have the following prerequisites inst
 
 1. Clone this repository to your local machine:
 
-   ```bash
+```bash
    git clone https://github.com/your-username/react-vite-app.git
 ```
-2. Clone this repository:
-
-   ```bash
-cd react-vite-app
-```
-3. Install dependencies:
+2. Install dependencies:
 ```bash
 npm install
 # or
@@ -52,6 +47,6 @@ npm run dev
 yarn dev
 ```
 
-This will start the development server at http://localhost:3000 by default. You can now view your React application in the browser.
+This will start the development server at http://localhost:5173 by default. You can now view your React application in the browser.
 
 The page will reload if you make edits.
