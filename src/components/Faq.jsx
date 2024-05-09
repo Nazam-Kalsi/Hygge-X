@@ -8,7 +8,7 @@ const questions = [
 
 function Faq() {
   return (
-    <>
+    <div className="sm:mx-24 mx-8">
       <h2 className="text-bg text-4xl font-bold">F.A.Q</h2>
       {questions.map((question, index) => (
         <div className="relative">
@@ -28,7 +28,7 @@ function Faq() {
           <img className="absolute top-1/4 right-5" src='/DownArrow.svg' alt='Down'/>
         </div>
       ))}
-    </>
+    </div>
   );
 }
 

@@ -10,8 +10,8 @@ function App() {
      <Header/>
      <Navigation/>
      <Section/>
-     <Faq/>
     </Container>
+     <Faq/>
     </>
   )
 }
